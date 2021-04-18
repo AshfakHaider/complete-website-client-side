@@ -1,0 +1,41 @@
+.appointment{
+    background-image: url('../../../images/appointment.jpg');
+    height: 465px;
+    background-size: contain;
+}
+.appointment h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.appointment p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    
+}
+.booking{
+    height: 150px;
+    width: 1000px;
+    background: white;
+    color: black;
+    margin-top: 30px;
+}
+.bookingBtn{
+    padding: 12px 42px;
+    border: 1px solid #29A268;
+    background-color: #29A268;
+    border-radius: 4px;
+    color: white;
+}
+.booking h3{
+    font-size: 50px;
+    font-weight: 700;
+    color: #29A268;
+}
+.booking h5{
+    color: #13287E;
+    font-weight: 500;
+    font-size: 30px;
+}

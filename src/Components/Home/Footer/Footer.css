@@ -1,0 +1,10 @@
+.footer{
+    background-image: url('../../../images/footer_bg02.jpg');
+    height: 300px;
+}
+.footer-description{
+    margin-top: 50px;
+}
+.footer-description h3{
+    color: #13287E;
+}

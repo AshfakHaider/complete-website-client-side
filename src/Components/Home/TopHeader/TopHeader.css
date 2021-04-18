@@ -1,0 +1,18 @@
+.iconSpan{
+    margin-right: 15px;
+}
+.icon{
+    margin-right: 10px;
+}
+.mainBtn {
+    padding: 4px 24px;
+    border: 1px solid #29A268;
+    background-color: #29A268;
+    border-radius: 4px;
+    color: white;
+    position: relative;
+    top: 15px;
+}
+.top-header{
+    color: white;
+}

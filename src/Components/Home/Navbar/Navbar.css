@@ -1,0 +1,7 @@
+.nav-link h6{
+    margin: 12px;
+    color: white;
+}
+.nav-link h6:hover{
+    color: #29a268;
+}

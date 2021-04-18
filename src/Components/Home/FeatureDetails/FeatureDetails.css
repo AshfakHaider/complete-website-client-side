@@ -1,0 +1,33 @@
+.features{
+    padding: 15px;
+}
+.top-position{
+    position: absolute;
+    bottom: 25px;
+    left: 65;
+    right: 65;
+    z-index: 9;
+   
+}
+.feature-icon{
+    font-size: 4rem;
+    color: #26A268;
+    border-radius: 50;
+}
+.top-position h4{
+    margin-left: 15px;
+    color: #fff;
+    font-weight: 700;
+}
+.feature{
+    position:relative;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+.feature img{
+    object-fit: cover;
+    filter: brightness(.4);
+}

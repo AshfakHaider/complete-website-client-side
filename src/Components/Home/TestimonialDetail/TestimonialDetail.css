@@ -1,0 +1,18 @@
+.testimonialDetail{
+	padding: 40px 20px;
+	text-align: center;
+	box-shadow:  0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+    margin: 0px 30px;
+}
+.detail{
+    margin: 10px;
+}
+.testimonialDetail p{
+    font-size: 13px;
+}
+.testimonialDetail:hover{
+    transform: translateY(-10px);
+
+}

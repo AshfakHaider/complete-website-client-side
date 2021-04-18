@@ -1,0 +1,62 @@
+.serviceDetail h4{
+    color: #13287E;
+    margin: 25px;
+    
+}
+.serviceDetail{
+    padding: 35px;
+}
+.card{
+    margin: 50px auto;
+    background-color: #EEE;
+    box-shadow: 2px 2px 10px 0px #777;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius:20px;
+    font-family:monospace;
+    transform-style: preserve-3d;
+    transition: all 2s ease-in-out;
+}
+.card:hover{
+    transform: rotateY(180deg)
+}
+.card > div {
+ 
+    width:100%;
+    height:100% ;
+    text-align: center;
+}
+.front{
+    z-index: 2;
+    backface-visibility: hidden;
+}
+.front h4{
+    margin-top: 25px;  
+}
+.front p{
+    font-family: serif;
+    font-weight: bold;
+    width: 85%;
+    margin: auto;
+}
+
+.back{
+    z-index: 1; 
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #8080802e;
+    color: darkblue;
+    box-shadow: 2px 2px 10px 20px #777 inset;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+.back p{
+    margin-top: -225px;
+}
+.back h4{
+    position: relative;
+    bottom: 250px;
+}
