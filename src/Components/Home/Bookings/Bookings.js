@@ -11,7 +11,7 @@ const Bookings = () => {
     const[loggedInUser,setLoggedInUser] = useContext(UserContext);
     const [services,setServices] = useState([]);
     useEffect(()=>{
-        const url = `http://localhost:5000/bookings/${id}`;
+        const url = `https://sleepy-headland-68980.herokuapp.com/bookings/${id}`;
         fetch(url)
         .then(res => res.json())
         .then(data  => {
@@ -28,7 +28,7 @@ const Bookings = () => {
             detail: data.detail,
             category: data.category
         };
-        const url = `http://localhost:5000/addBookings`;
+        const url = `https://sleepy-headland-68980.herokuapp.com/addBookings`;
 
         console.log(bookingData);
         fetch(url, {

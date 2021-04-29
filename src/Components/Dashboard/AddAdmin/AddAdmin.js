@@ -6,7 +6,7 @@ const AddAdmin = () => {
     const onSubmit = data => {
         console.log(data);
 
-        fetch('http://localhost:5000/addAdmin', {
+        fetch('https://sleepy-headland-68980.herokuapp.com/addAdmin', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

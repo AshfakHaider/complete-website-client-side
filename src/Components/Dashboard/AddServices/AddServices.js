@@ -14,7 +14,7 @@ const AddService = () => {
             category: data.category,
             imageURL: imageURL
         };
-        const url = `http://localhost:5000/addService`;
+        const url = `https://sleepy-headland-68980.herokuapp.com/addService`;
         console.log(serviceData)
         fetch(url, {
             method: 'POST',

@@ -5,7 +5,7 @@ import client from '../../../images/client.png'
 const Testimonial = () => {
     const [testimonial,setTestimonial] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/review')
+        fetch('https://sleepy-headland-68980.herokuapp.com/review')
         .then(res=> res.json())
         .then(data =>{
             setTestimonial(data);

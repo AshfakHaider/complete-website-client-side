@@ -15,7 +15,7 @@ const AddService = () => {
             category: data.category,
             imageURL: imageURL
         };
-        const url = `http://localhost:5000/addReview`;
+        const url = `https://sleepy-headland-68980.herokuapp.com/addReview`;
         console.log(reviewData)
         fetch(url, {
             method: 'POST',

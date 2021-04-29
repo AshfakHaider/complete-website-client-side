@@ -7,7 +7,7 @@ const BookingList = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
     useEffect(() => {
-        const url = `http://localhost:5000/booking?email=`+loggedInUser.email;
+        const url = `https://sleepy-headland-68980.herokuapp.com/booking?email=`+loggedInUser.email;
         fetch(url)
         .then(res => res.json())
         .then(data => setBookings(data));
